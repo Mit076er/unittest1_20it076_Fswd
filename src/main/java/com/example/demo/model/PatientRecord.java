@@ -4,7 +4,9 @@ import javax.persistence.Entity;
 import javax.persistence.Id;
 
 @Entity
-public class PatientRecord {
+
+public class PatientRecord 
+{
     @Id
     private Long patientId;
     private String name;
@@ -12,7 +14,8 @@ public class PatientRecord {
     private Integer age;
 
 
-    public PatientRecord() {
+    public PatientRecord()
+    {
 
     }
 
