@@ -9,6 +9,7 @@ const Navigationbar = () => {
        <Navbar bg="dark" className='px-3' variant="dark" expand="lg">
         <Navbar.Brand ><Link className="nav-link" to="/">Patient Management System</Link></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
+    
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link><Link className="nav-link" to="/">Home</Link></Nav.Link>
