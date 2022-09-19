@@ -25,6 +25,7 @@ const AddPatientRecord = () => {
         setName(response.data.name)
         setAge(response.data.age)
         setId(response.data.patientId)
+        
       })
     }
   }, [])
