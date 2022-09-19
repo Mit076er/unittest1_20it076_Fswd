@@ -10,6 +10,7 @@ const PatientList = () => {
   useEffect(() => {
     axios.get("http://localhost:8080/listPatientRecord").then((response) => {
       console.log(response)
+      
       setStudents(response.data);
       // console.log(students)
     })
@@ -21,6 +22,7 @@ const PatientList = () => {
     console.log(id)
     axios.delete(`http://localhost:8080/patient/${id}`).then((response) => {
       setStudents(students.filter((student)=>student.patientId!==id));
+      
       // setStudents(response.data)
     })
   }
