@@ -15,10 +15,12 @@ function App() {
         <Routes>
           <Route path='/adddata' element={<AddPatientRecord />}/>
           <Route path='/patientlist' element={<PatientList />}/>
-          <Route path='/patient/:patientId' element={<AddPatientRecord />}/>
+
+            <Route path='/patient/:patientId' element={<AddPatientRecord />}/>
         </Routes>
       </BrowserRouter>
     </div>
+
   );
 }
 
